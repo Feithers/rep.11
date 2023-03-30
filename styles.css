@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif  
+}
+
+.sr-only { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    top: -99999px; 
+    right: -999999px; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip: rect(0, 0, 0, 0); 
+    white-space: nowrap; 
+    border-width: 0;   
+}
+    
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 3%;
+    width: 80%;
+}
+
+.section1, section {
+    background-color: hsl(228, 56%, 26%);
+}
+
+
+
+
+
+
+/*SECTION1*//*SECTION1*//*SECTION1*//*SECTION1*//*SECTION1*//*SECTION1*/
+/*SECTION1*//*SECTION1*//*SECTION1*//*SECTION1*//*SECTION1*//*SECTION1*/
+
+
+.section1 {
+    height: 23vh;
+    flex-basis: 30%;
+    border-radius: 1rem;
+    border-top-right-radius: 10rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icons {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 35%;
+    column-gap: 10%;
+}
+.section1 > div > picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 1rem;
+}
+
+
+/*-----------------------*//*-----------------------*//*-----------------------*//*-----------------------*/
+/*-----------------------*//*-----------------------*//*-----------------------*//*-----------------------*/
+/*-----------------------*//*-----------------------*//*-----------------------*//*-----------------------*/
+
+
+
+
+
+
+
+
+/*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*/
+/*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*//*SECTION2*/
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10%;
+    height: 17vh;
+    flex-basis: 55%;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.section2 > p {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.meter-bar {
+    width: 100%;
+    height: 30%;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 0.2rem;
+}
+
+.filler-bar {
+    width: 81.5%;
+    height: 100%;
+    border-radius: 1rem;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0.18rem;
+}
+
+.circle {
+    width: 4%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255)
+}
+
+.space {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*-----------------------*//*-----------------------*//*-----------------------*//*-----------------------*/
+/*-----------------------*//*-----------------------*//*-----------------------*//*-----------------------*/
+/*-----------------------*//*-----------------------*//*-----------------------*//*-----------------------*/
+
+
+
+
+
+
+
+
+/*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*/
+/*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*//*DIALOG*/
+
+
+
+.dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 15%;
+    height: 80px;
+    position: absolute;
+    top: 38%;
+    right: 19%;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.dialog > p {
+    margin-right: 0.5rem;
+    margin-bottom: 0.7rem;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.detail {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 42%;
+    right: 19%;
+    background-color: white;
+    transform: skew(0,20deg);
+}
+
